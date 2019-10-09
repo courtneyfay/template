@@ -1,11 +1,15 @@
 <script>
-	export let name;
+  import HelloWorld from "./components/HelloWorld.svelte";
+  import Image from "./components/Image.svelte";
+  import WorstParagraph from "./components/WorstParagraph.svelte";
+  import RiskyHTML from "./components/RiskyHTML.svelte";
+  import Concepts from "./concepts/Concepts.svelte";
 </script>
 
-<style>
-	h1 {
-		color: purple;
-	}
-</style>
-
-<h1>Hello {name}!</h1>
+<!--you can have multiple elements at the root!-->
+<h1>The App</h1>
+<HelloWorld name="Court" />
+<Image />
+<WorstParagraph />
+<RiskyHTML />
+<Concepts />
