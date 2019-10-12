@@ -11,7 +11,7 @@
     { id: "OUtn3pvWmpg", name: "Henri The Existential Cat" }
   ];
 
-  import Thing from "./Thing.svelte";
+  import Thing from "./nested/Thing.svelte";
 
   let things = [
     { id: 1, color: "#0d0887" },
@@ -31,7 +31,6 @@
     const res = await fetch(
       `https://www.random.org/integers/?num=1&min=1&max=100&col=1&base=10&format=plain&rnd=new`
     );
-    console.log("res", res);
     const text = await res.text();
 
     if (res.ok) {

@@ -25,7 +25,7 @@
   $: sum = numbers.reduce((t, n) => t + n, 0);
 </script>
 
-<h3>Reactivity</h3>
+<h2>Reactivity</h2>
 
 <!--this feels like Vue to me-->
 <button on:click={handleClick}>

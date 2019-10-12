@@ -1,6 +1,6 @@
 <script>
-  import Child from "./Child.svelte";
-  import Info from "./Info.svelte";
+  import Child from "./nested/Child.svelte";
+  import Info from "./nested/Info.svelte";
 
   const pkg = {
     name: "funicorn",
